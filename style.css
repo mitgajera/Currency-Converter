@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #EF9C66;
+}
+
+.container{
+    background-color: aliceblue;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    min-height:45vh;
+    width:35vh;
+    margin-bottom: 16px;
+}
+
+form{
+    margin: 2rem 0 1rem 0;
+}
+
+form select,button,input{
+    padding: 7px;
+    width: 65px; 
+    border: 1px solid #efefef;  
+    border-radius: 0.3rem;   
+}
+
+form button{
+    padding: 7px;
+    width: 100%; 
+    border: 1px solid #efefef;  
+    border-radius: 0.3rem;   
+}
+
+.amount p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+form input{
+    width: 94%; 
+    font-size: 1rem;
+    font-weight: 600;
+    height: 1.45rem;
+    padding-left: 0.5rem;
+}
+
+.container h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 1rem;
+}
+
+.dropdown img{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.from{
+    margin-left: 1.5rem;
+}
+
+.to{
+    margin-right: 1.5rem;
+}
+.from p{
+    padding-left: 15px;
+    font-weight: 600;
+}
+
+.to p{
+        padding-left: 22px;
+        font-weight: 600;
+}
+
+.select-container img{
+    max-width: 2.5rem;
+}
+
+.msg{
+    margin: 1rem 0 1rem 5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+form button{
+    height: 2.5rem;
+    margin-top: 5px;
+    background-color: #ff6c3a;
+    color: white;
+    font-weight: 700;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
