@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,47 +11,51 @@ body{
     background-color: #EF9C66;
 }
 
-.container{
+
+
+.container {
     background-color: aliceblue;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    min-height:45vh;
-    width:35vh;
+    min-height: 45vh;
+    width: 35vh;
     margin-bottom: 16px;
 }
 
-form{
+form {
     margin: 2rem 0 1rem 0;
 }
 
-form select,button,input{
+form select,
+button,
+input {
     padding: 7px;
-    width: 65px; 
-    border: 1px solid #efefef;  
-    border-radius: 0.3rem;   
+    width: 65px;
+    border: 1px solid #efefef;
+    border-radius: 0.3rem;
 }
 
-form button{
+form button {
     padding: 7px;
-    width: 100%; 
-    border: 1px solid #efefef;  
-    border-radius: 0.3rem;   
+    width: 100%;
+    border: 1px solid #efefef;
+    border-radius: 0.3rem;
 }
 
-.amount p{
+.amount p {
     font-size: 1rem;
     font-weight: 500;
 }
 
-form input{
-    width: 94%; 
+form input {
+    width: 94%;
     font-size: 1rem;
     font-weight: 600;
     height: 1.45rem;
     padding-left: 0.5rem;
 }
 
-.container h2{
+.container h2 {
     display: flex;
     justify-content: center;
     margin-top: 5px;
@@ -61,44 +65,45 @@ form input{
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
     margin-top: 1rem;
 }
 
-.dropdown img{
+.dropdown img {
     display: flex;
     justify-content: center;
     margin: auto;
 }
 
-.from{
+.from {
     margin-left: 1.5rem;
 }
 
-.to{
+.to {
     margin-right: 1.5rem;
 }
-.from p{
+
+.from p {
     padding-left: 15px;
     font-weight: 600;
 }
 
-.to p{
-        padding-left: 22px;
-        font-weight: 600;
+.to p {
+    padding-left: 22px;
+    font-weight: 600;
 }
 
-.select-container img{
+.select-container img {
     max-width: 2.5rem;
 }
 
-.msg{
+.msg {
     margin: 1rem 0 1rem 5rem;
     font-size: 1rem;
     font-weight: bold;
 }
 
-form button{
+form button {
     height: 2.5rem;
     margin-top: 5px;
     background-color: #ff6c3a;
@@ -106,4 +111,54 @@ form button{
     font-weight: 700;
     font-size: 0.8rem;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    .dropdown {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .from,
+    .to {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0.5rem;
+    }
+
+    .msg {
+        margin: 1rem 0 1rem 0;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+    }
+
+    form select,
+    button,
+    input {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+
+    .amount p {
+        font-size: 0.9rem;
+    }
+
+    .msg {
+        font-size: 0.9rem;
+    }
+
+    form button {
+        font-size: 0.7rem;
+    }
+
 }
