@@ -11,8 +11,6 @@ body {
     background-color: #EF9C66;
 }
 
-
-
 .container {
     background-color: aliceblue;
     padding: 1.5rem;
@@ -98,7 +96,10 @@ form input {
 }
 
 .msg {
-    margin: 1rem 0 1rem 5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     font-size: 1rem;
     font-weight: bold;
 }
@@ -111,4 +112,46 @@ form button {
     font-weight: 700;
     font-size: 0.8rem;
     cursor: pointer;
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 40vh;
+    }
+    form select,
+    button,
+    input {
+        width: 80px;
+    }
+    form button {
+        height: 3rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .container {
+        width: 60vh;
+    }
+    form select,
+    button,
+    input {
+        width: 60px;
+    }
+    form button {
+        height: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 45vh;
+    }
+    form select,
+    button,
+    input {
+        width: 80px;
+    }
+    form button {
+        height: 2rem;
+    }
 }

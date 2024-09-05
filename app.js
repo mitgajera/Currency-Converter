@@ -51,7 +51,6 @@ const updateExchangeRate = async () => {
         console.log(rate);
 
         let finalAmount = Math.round(amtValue * rate * 100) / 100;  
-        console.log(finalAmount);
         msg.innerText = `${amtValue} ${fromCurr.value} = ${finalAmount} ${toCurr.value}`;
     } catch (error) {
         console.error('There was a problem with the fetch operation:', error);
