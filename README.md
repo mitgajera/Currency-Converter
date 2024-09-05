@@ -5,7 +5,7 @@ A simple web application that converts currencies based on the latest exchange r
 
 ## Live Demo
 
-You can try out the live version of the application here: https://mitgajera.github.io/Currency-Converter/
+You can try out the live version of the application here: https://mitgajera.github.io/Currency-Converter
 
 ## Features
 
