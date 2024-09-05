@@ -143,8 +143,28 @@ form button {
 }
 
 @media only screen and (max-width: 767px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 90vh;
+    }
     .container {
-        width: 45vh;
+        width: 35vh;
+        margin: 0px;
+    }
+    .msg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.3rem;
+        margin-bottom: 1.1em;;
+    }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
     }
     form select,
     button,
@@ -152,6 +172,6 @@ form button {
         width: 80px;
     }
     form button {
-        height: 2rem;
+        height: 3rem;
     }
 }
